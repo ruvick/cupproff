@@ -99,22 +99,21 @@ body {
 
 //<ЗАГОЛОВКИ>=================================================================================================================
 h1 {
-	font-size: 35px;
-	font-weight: 500;
-	line-height: 52.8 / 40 *100%;
-	line-height: 38px;}
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 49 / 44 *100%;}
 h2 {
-	font-size: 32px;
-	font-weight: 500;
-	line-height: 38px;}
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 49 / 44 *100%;}
 h3 {
-	font-size: 28px;
-	font-weight: 500;
-	line-height: 38px;}
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 26 / 22 *100%;}
 h4 {
-	font-size: 25px;
-	font-weight: 500;
-	line-height: 38px;}
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 30 / 18 *100%;}
 	
 	.title {
 		text-align: center;
@@ -189,7 +188,7 @@ h4 {
 .page {
 	flex: 1 1 auto;
 	// padding: 35px 0; 
-	padding-top: 80px;
+	// padding-top: 80px;
 }
 //===================================================================================================================================
 
