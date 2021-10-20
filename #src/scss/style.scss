@@ -4,10 +4,58 @@
 //</МИКСИНЫ>===============================================================================================
 
 //<ШРИФТЫ>===============================================================================================
+@font-face {
+	font-family: 'MuseoSansCyrl';
+	src: url('../fonts/MuseoSansCyrl-Thin.eot');
+	src: local('☺'), url('../fonts/MuseoSansCyrl-Thin.woff') format('woff'), url('../fonts/MuseoSansCyrl-Thin.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-Thin.svg') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNovaExCn';
+	src: url('../fonts/ProximaNovaExCn-Thin.eot');
+	src: local('☺'), url('../fonts/ProximaNovaExCn-Thin.woff') format('woff'), url('../fonts/ProximaNovaExCn-Thin.ttf') format('truetype'), url('../fonts/ProximaNovaExCn-Thin.svg') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('../fonts/BebasNeue-Book.eot');
+	src: local('☺'), url('../fonts/BebasNeue-Book.woff') format('woff'), url('../fonts/BebasNeue-Book.ttf') format('truetype'), url('../fonts/BebasNeue-Book.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LifehackSans';
+	src: url('../fonts/LifehackSans-Regular.eot');
+	src: local('☺'), url('../fonts/LifehackSans-Regular.woff') format('woff'), url('../fonts/LifehackSans-Regular.ttf') format('truetype'), url('../fonts/LifehackSans-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MuseoSansCyrl';
+	src: url('../fonts/MuseoSansCyrl-Bold.eot');
+	src: local('☺'), url('../fonts/MuseoSansCyrl-Bold.woff') format('woff'), url('../fonts/MuseoSansCyrl-Bold.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('../fonts/BebasNeue-Bold.eot');
+	src: local('☺'), url('../fonts/BebasNeue-Bold.woff') format('woff'), url('../fonts/BebasNeue-Bold.ttf') format('truetype'), url('../fonts/BebasNeue-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
 
 //<Подключаем шрифты>=======================================================================================
 //&display=swap&subset=cyrillic-ext
-@import "fonts";
+// @import "fonts";
 //</Подключаем шрифты>=======================================================================================
 
 //<Иконочные шрифты>==========================================================================================
@@ -15,7 +63,7 @@
 //</Иконочные шрифты>==========================================================================================
 
 //<Шрифт по умолчанию>==========================================================================================
-$fontFamily: "";
+$fontFamily: "MuseoSansCyrl";
 $fontSize: 16;
 //</Шрифт по умолчанию>==========================================================================================
 
@@ -24,25 +72,24 @@ $fontSize: 16;
 //<ПЕРЕМЕННЫЕ>==========================================================================================================
 $minWidth: 320px;
 $maxWidth: 1920;
-$maxWidthContainer: 1170;
+$maxWidthContainer: 1440;
 $md1: $maxWidthContainer + 12;
 $md2: 991.98;
 $md3: 767.98;
 $md4: 479.98;
 
-$mainColor: #000;
+$mainColor: #161615;
 
 //</ПЕРЕМЕННЫЕ>===========================================================================================================
 
 //<ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>===============================================================================================
 @import "null";
 body {
-	font-weight: 400;
+	font-weight: 100;
 	color: $mainColor;
-	background: #333;
 	a {
-		font-family: "Lato";
-		color: #1a1818;
+		font-family: "MuseoSansCyrl";
+		color: #161615;
 	}
 	&._lock {
 		overflow: hidden;
