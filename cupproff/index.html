@@ -20,29 +20,21 @@
 
 <body>
 	<div class="wrapper">
-		<header id="header" class="header">
+		<header id="header-index" class="header header-index">
 	<div class="header__container _container">
 
 		<div class="header__row d-flex">
 
-			<a href="index.html" class="header__logo logo-icon"></a>
+			<a href="index.html" class="header__logo logo-icon"></a> 
 			<!-- <? bloginfo("url"); ?> -->
 
 			<div class="header__navigation">
-
-				<div class="header__contacts d-flex">
-					<p class="header__time-phone">Горячая линия</p>
-					<a href="tel:88004882222" class="header__phone">8 800 488 22 22</a>
-					<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>"><? echo $tel = carbon_get_theme_option("as_phone_1"); ?></a> -->
-				</div>
-				<a href="tel:88004882222" class="mob-callback__phone"></a>
-				<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>" class="mob-callback__phone"></a> -->
 
 				<a href="#" class="bascket-icon"><span class="bascket-icon__number bascet_counter">1</span></a>
 
 				<div class="header__menu-icon-block">
 					<p class="header__menu-icon-text">Меню</p>
-					<div class="menu__icon icon-menu">
+					<div class="menu__icon icon-menu icon-menu-open">
 						<span></span>
 						<span></span>
 						<span></span>
@@ -54,32 +46,82 @@
 
 	</div>
 </header>
-<div class="header__shadow">
-	<img src="img/h-shadow.jpg" alt="">
-</div>
 
-<!-- Мобильное меню -->
-<div class="header__mob-menu mob-menu">
-	<ul class="mob-menu__list">
-		<li><a href="#" class="menu__link">Пункт 1</a></li>
-		<li><a href="#" class="menu__link">Пункт 2</a></li>
-		<li><a href="#" class="menu__link">Пункт 3</a></li>
-		<li><a href="#" class="menu__link">Пункт 4</a></li>
-		<li><a href="#" class="menu__link">Пункт 5</a></li>
-	</ul>
-	<!-- <?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'mob-menu__list',
-		'container_class' => 'mob-menu__list','container' => false )); ?>  -->
-		<a href="#callback" class="header__popup-link header__popup-link_mob _popup-link">ЗАКАЗАТЬ ЗВОНОК</a>
+<!-- Меню -->
+<div class="header__mob-menu menu">
+	<div class="menu__img">
+		<img src="img/menu.jpg" alt="">
 	</div>
+	<div class="menu__wrap">
+		<div class="menu__header">
+			<a href="index.html" class="header__logo logo-icon"></a> 
+			<a href="#" class="bascket-icon"><span class="bascket-icon__number bascet_counter">1</span></a>
+			<div class="header__menu-icon-block menu-icon-block">
+				<p class="header__menu-icon-text">Меню</p>
+				<div class="menu__icon icon-menu icon-menu-close active">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="menu__body">
+			<div class="menu__list">
+				<h3>Наша продукция</h3>
+				<div class="menu__list-wrap">
+					<ul class="menu__list-item">
+						<li><a href="#">Бумажные стаканчики 170 мл</a></li>
+						<li><a href="#">Бумажные стаканчики 180 мл</a></li>
+						<li><a href="#">Бумажные стаканчики 225 мл</a></li>
+						<li><a href="#">Бумажные стаканчики 250 мл</a></li>
+						<li><a href="#">Бумажные стаканчики 350 мл</a></li>
+						<li><a href="#">Бумажные стаканчики 400 мл</a></li>
+					</ul>
+					<ul class="menu__list-item">
+						<li><a href="#">Однослойные бумажные стаканчики</a></li>
+						<li><a href="#">Двухслойные бумажные стаканчики</a></li>
+						<li><a href="#">Трехслойные бумажные стаканчики</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="menu__list">
+				<h3>Дополнительно</h3>
+				<ul class="menu__list-item">
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Доставка</a></li>
+					<li><a href="#">Разработка дизайна</a></li>
+					<li><a href="#">Этапы производства</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+					<!-- <?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'mob-menu__list',
+						'container_class' => 'mob-menu__list','container' => false )); ?>  -->
+						<!-- <a href="#callback" class="header__popup-link header__popup-link_mob _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
+					</div>
+				</div>
+				<div class="menu__footer">
+					<div class="menu__footer-contacts header__contacts d-flex">
+						<p class="header__time-phone">Горячая линия</p>
+						<a href="tel:88004882222" class="header__phone">8 800 488 22 22</a>
+						<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>"><? echo $tel = carbon_get_theme_option("as_phone_1"); ?></a> -->
+					</div>
+					<div class="menu__soc-block">
+						<h4>Мы в социальных сетях </h4>
+						<div class="menu__soc-block-icon soc-block-icon">
+							<a href="#" class="menu__soc-block-icon-link soc-block-icon-link menu__soc-icon-1"></a>
+							<a href="#" class="menu__soc-block-icon-link soc-block-icon-link menu__soc-icon-2"></a>
+							<a href="#" class="menu__soc-block-icon-link soc-block-icon-link menu__soc-icon-3"></a>
+							<a href="#" class="menu__soc-block-icon-link soc-block-icon-link menu__soc-icon-4"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-	<!-- Строка мобильного поиска -->
-	<div class="header__search-mob search">
-		<form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ) ?>">
-			<input type="text" placeholder="Поиск" class="search__input input" value="<?php echo get_search_query() ?>" name="s"
-			id="s">
-			<button type="submit" tabindex="2" id="searchsubmit" class="sub-search" value=""></button>
-		</form>
-	</div> 
+		<div class="bg-index"></div>
+
+
+
+ 
 		<main class="page">
 
 			<section id="about" class="about">

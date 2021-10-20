@@ -1,26 +1,18 @@
-<header id="header" class="header">
+<header id="header-index" class="header header-index">
 	<div class="header__container _container">
 
 		<div class="header__row d-flex">
 
-			<a href="index.html" class="header__logo logo-icon"></a>
+			<a href="index.html" class="header__logo logo-icon"></a> 
 			<!-- <? bloginfo("url"); ?> -->
 
 			<div class="header__navigation">
-
-				<div class="header__contacts d-flex">
-					<p class="header__time-phone">Горячая линия</p>
-					<a href="tel:88004882222" class="header__phone">8 800 488 22 22</a>
-					<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>"><? echo $tel = carbon_get_theme_option("as_phone_1"); ?></a> -->
-				</div>
-				<a href="tel:88004882222" class="mob-callback__phone"></a>
-				<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>" class="mob-callback__phone"></a> -->
 
 				<a href="#" class="bascket-icon"><span class="bascket-icon__number bascet_counter">1</span></a>
 
 				<div class="header__menu-icon-block">
 					<p class="header__menu-icon-text">Меню</p>
-					<div class="menu__icon icon-menu">
+					<div class="menu__icon icon-menu icon-menu-open">
 						<span></span>
 						<span></span>
 						<span></span>
@@ -44,7 +36,7 @@
 			<a href="#" class="bascket-icon"><span class="bascket-icon__number bascet_counter">1</span></a>
 			<div class="header__menu-icon-block menu-icon-block">
 				<p class="header__menu-icon-text">Меню</p>
-				<div class="menu__icon icon-menu">
+				<div class="menu__icon icon-menu icon-menu-close active">
 					<span></span>
 					<span></span>
 					<span></span>
@@ -55,7 +47,7 @@
 			<div class="menu__list">
 				<h3>Наша продукция</h3>
 				<div class="menu__list-wrap">
-					<ul>
+					<ul class="menu__list-item">
 						<li><a href="#">Бумажные стаканчики 170 мл</a></li>
 						<li><a href="#">Бумажные стаканчики 180 мл</a></li>
 						<li><a href="#">Бумажные стаканчики 225 мл</a></li>
@@ -63,7 +55,7 @@
 						<li><a href="#">Бумажные стаканчики 350 мл</a></li>
 						<li><a href="#">Бумажные стаканчики 400 мл</a></li>
 					</ul>
-					<ul>
+					<ul class="menu__list-item">
 						<li><a href="#">Однослойные бумажные стаканчики</a></li>
 						<li><a href="#">Двухслойные бумажные стаканчики</a></li>
 						<li><a href="#">Трехслойные бумажные стаканчики</a></li>
@@ -72,7 +64,7 @@
 			</div>
 			<div class="menu__list">
 				<h3>Дополнительно</h3>
-				<ul>
+				<ul class="menu__list-item">
 					<li><a href="#">О нас</a></li>
 					<li><a href="#">Доставка</a></li>
 					<li><a href="#">Разработка дизайна</a></li>
@@ -103,8 +95,7 @@
 			</div>
 		</div>
 
-		<div class="header__shadow">
-			<img src="img/h-shadow.jpg" alt="">
-		</div>
+		<div class="bg-index"></div>
+
 
 
