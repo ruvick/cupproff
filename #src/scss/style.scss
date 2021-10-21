@@ -17,7 +17,7 @@
 	src: url('../fonts/ProximaNovaExCn-Thin.eot');
 	src: local('☺'), url('../fonts/ProximaNovaExCn-Thin.woff') format('woff'), url('../fonts/ProximaNovaExCn-Thin.ttf') format('truetype'), url('../fonts/ProximaNovaExCn-Thin.svg') format('svg');
 	font-weight: 100;
-	font-style: normal; 
+	font-style: normal;  
 }
 
 @font-face {
@@ -115,11 +115,11 @@ h4 {
 	font-weight: 100;
 	line-height: 30 / 18 *100%;}
 	
-	.title {
-		text-align: center;
-		color: #222222;
-		margin-bottom: 38px;
-	}
+	// .title {
+	// 	text-align: center;
+	// 	color: #222222;
+	// 	margin-bottom: 38px;
+	// }
 	
 	@media (max-width: 768px) {
 		h1 {
@@ -167,8 +167,8 @@ h4 {
 
 //<ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>====================================================================================================
 //@import "../../js/fancybox/jquery.fancybox";
-@import "datepicker";
-@import "lightgallery";
+// @import "datepicker";
+// @import "lightgallery";
 //@import "popover.min";
 //@import "baguetteBox";
 // @import "fancybox.min";
@@ -191,6 +191,95 @@ h4 {
 	// padding-top: 80px;
 }
 //===================================================================================================================================
+
+.about {
+	padding-bottom: 65px;
+}
+
+.about__container {
+	max-width: 1600px;
+	margin-right: 50px; 
+}
+
+.about__slider-wrap {
+	position: relative;
+	display: flex;
+  max-width: 795px;
+  width: 100%;
+	height: 795px;
+	margin-right: 61px;
+}
+
+.about__slider {
+	// flex: 0 0 795px;
+	// height: 795px;
+	background: #FFE268;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.about__row {
+	align-items: center;
+}
+
+.about {
+	// .about__descp
+	&__descp {
+		flex: 1 1 auto;
+	}
+	// .about__title
+	&__title {
+		font-family: 'BebasNeue';
+		font-size: 67px;
+		line-height: 63px;
+		font-weight: 700;
+		margin-bottom: 10px;
+		span {
+			display: block;
+			font-weight: 400;
+			margin-top: 5px;
+		}
+	}
+	// .about__subtitle
+	&__subtitle {
+		font-size: 24px;
+	}
+	// .about__titming
+	&__titming {
+		max-width: 600px;
+		width: 100%;
+		justify-content: space-between;
+		margin-top: 42px;
+	}
+	// .about__titming-item
+	&__titming-item {
+		margin-right: 10px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	// .about__titming-subdescription
+	&__titming-subdescription {
+		font-size: 18px;
+		margin-bottom: 3px;
+	}
+	// .about__titming-description
+	&__titming-description {
+		font-family: 'BebasNeue';
+		font-size: 54px;
+		line-height: 59.88px;
+		font-weight: 700;
+	}
+	// .about__btn
+	&__btn {
+		padding-left: 34px;
+		padding-right: 34px;
+		box-shadow: 0px 8px 33px -18px #000000;
+		margin-top: 28px;
+	}
+}
+//===================================================================================================================================
+
 
 
 
