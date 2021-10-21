@@ -59,23 +59,26 @@
 }
 
 // Блок Навигации
-.header__navigation {
+.header__navigation { 
 	display: flex;
 	justify-content: space-between;
 	// align-items: center;
 	flex: 0 1 710px;
 }
 .header__contacts {
-	flex: 0 0 260px;
-	flex-direction: column;
 	margin-right: 25px;
 }
-.header__phone {
+
+.contacts {
+	flex: 0 0 260px;
+	flex-direction: column;
+}
+.contacts__phone {
 	font-size: 34px;
 	line-height: 26px;
 	font-weight: 700;
 }
-.header__time-phone {
+.contacts__time-phone {
 	font-size: 16px;
 	line-height: 30px;
 	margin-bottom: 5px;

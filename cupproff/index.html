@@ -99,9 +99,9 @@
 					</div>
 				</div>
 				<div class="menu__footer">
-					<div class="menu__footer-contacts header__contacts d-flex">
-						<p class="header__time-phone">Горячая линия</p>
-						<a href="tel:88004882222" class="header__phone">8 800 488 22 22</a>
+					<div class="menu__footer-contacts header__contacts contacts d-flex">
+						<p class="header__time-phone contacts__time-phone">Горячая линия</p>
+						<a href="tel:88004882222" class="header__phone contacts__phone">8 800 488 22 22</a>
 						<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>"><? echo $tel = carbon_get_theme_option("as_phone_1"); ?></a> -->
 					</div>
 					<div class="menu__soc-block">
@@ -124,8 +124,8 @@
  
 		<main class="page">
 
-			<section id="about" class="about">
-				<div class="_container">
+			<section id="about" class="about"> 
+				<div class="_container"> 
 
 
 
@@ -156,42 +156,61 @@
 
 		<div class="footer__row d-flex">
 
-			<a href="index.html" class="footer__logo logo-icon">
-				<p>Название <span>текст logo</span></p>
-			</a>
-
-			<ul class="footer__menu">
-				<li><a href="#" class="menu__link">Пункт 1</a></li>
-				<li><a href="#" class="menu__link">Пункт 2</a></li>
-				<li><a href="#" class="menu__link">Пункт 3</a></li>
-				<li><a href="#" class="menu__link">Пункт 4</a></li>
-				<li><a href="#" class="menu__link">Пункт 5</a></li>
-			</ul>
-
-			<div class="footer__contact">
-				<div class="header__contacts d-flex">
-					<a href="tel:84951700000" class="header__phone">8 (495) 170-00-00</a>
+			<div class="footer__column">
+				<ul class="footer__menu-list footer__menu-list_first">
+					<li><a href="#" class="menu__link">Наш каталог</a></li>
+					<li><a href="#" class="menu__link">Контакты</a></li> 
+				</ul>
+				<div class="footer__contacts contacts d-flex">
+					<p class="footer__time-phone contacts__time-phone">Горячая линия</p>
+					<a href="tel:88004882222" class="footer__phone contacts__phone">8 800 488 22 22</a>
 					<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>"><? echo $tel = carbon_get_theme_option("as_phone_1"); ?></a> -->
-					<p class="header__time-phone">Звонить с 08:00 до 22:00</p>
-					<a href="#callback" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a>
 				</div>
-
-				<p class="footer__policy">
-					Заполняя и отправляя данную форму Вы соглашаетесь <br>
-					с условиями политики конфиденциальности и <br>
-					обработки персональных данных
-				</p>
 			</div>
 
-			<form class="footer__form" action="#">
-				<h3>Форма обратной связи</h3>
-				<input id="name" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Ваше имя"
-					class="footer__form-input input _req">
-				<input id="tel2" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Ваш телефон"
-					class="footer__form-input input _phone _req">
-				<button type="submit" class="footer__form-btn btn">Записаться на прием</button>
-			</form>
+			<div class="footer__column">
+				<ul class="footer__menu-list">
+					<li><a href="#" class="menu__link">О нас</a></li>
+					<li><a href="#" class="menu__link">Доставка</a></li>
+					<li><a href="#" class="menu__link">Разработка дизайна</a></li>
+					<li><a href="#" class="menu__link">Этапы производства</a></li>
+					<li><a href="#" class="menu__link">Ассортимент</a></li> 
+				</ul>
+			</div>
 
+			<div class="footer__column">
+				<div class="contacts__mail">
+					<p class="contacts__text">По вопросам оптовых поставок</p>
+					<a href="mailto:opt@cupprof.ru" class="contacts__email">opt@cupprof.ru</a>
+				</div>
+				<div class="contacts__mail">
+					<p class="contacts__text">По вопросам сотрудничества</p>
+					<a href="mailto:info@cupprof.ru" class="contacts__email">info@cupprof.ru</a>
+				</div>
+			</div>
+
+			<div class="footer__column">
+				<div class="footer__policy">
+					<a href="#" class="footer__policy-link">
+						Политика в области защиты <br>
+						персональных данных
+					</a>	
+					<a href="#callback" class="footer__callback _popup-link btn">Задать вопрос</a>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="footer__line"></div>
+
+		<div class="footer__row footer__row_bottom d-flex">
+			<div class="footer__soc-block-icon soc-block-icon">
+				<a href="#" class="soc-block-icon-link soc-icon-1"></a>
+				<a href="#" class="soc-block-icon-link soc-icon-2"></a>
+				<a href="#" class="soc-block-icon-link soc-icon-3"></a>
+				<a href="#" class="soc-block-icon-link soc-icon-4"></a>
+			</div>
+			<p class="footer__policy-label">CupProff 2021 ©</p>
 		</div>
 
 	</div>
