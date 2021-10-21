@@ -66,6 +66,29 @@
   }
 }
 
+.footer {
+  // .footer__policy
+  &__policy {
+    display: flex;
+    flex-direction: column;
+  }
+  // .footer__policy-link
+  &__policy-link {
+    line-height: 30px;
+    color: #fff;
+    margin-bottom: 65px;
+  }
+  // .footer__callback
+  &__callback {
+    padding-left: 51px;
+    padding-right: 51px;
+    box-shadow: 0px 8px 33px -18px #000000;
+  }
+}
+
+
+
+
 
 .footer__line {
   width: 100%;
