@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Каталог продукции</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<!-- <link rel="stylesheet" href="css/fancybox.css"> -->
+	<link rel="icon" type="image/png" href="img/favicons/icon256.png" sizes="256x256">
+	<link rel="icon" type="image/png" href="img/favicons/icon128.png" sizes="128x128">
+	<link rel="icon" type="image/png" href="img/favicons/icon64.png" sizes="64x64">
+	<link rel="icon" type="image/png" href="img/favicons/icon32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/favicons/icon16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="img/favicons/icon.svg" sizes="any">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header id="header" class="header">
+	<div class="header__container _container">
+
+		<div class="header__row d-flex">
+
+			<a href="index.html" class="header__logo logo-icon"></a>
+			<!-- <? bloginfo("url"); ?> -->
+
+			<div class="header__navigation">
+
+				<div class="header__contacts contacts d-flex">
+					<p class="header__time-phone contacts__time-phone">Горячая линия</p>
+					<a href="tel:88004882222" class="header__phone contacts__phone">8 800 488 22 22</a>
+					<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>"><? echo $tel = carbon_get_theme_option("as_phone_1"); ?></a> -->
+				</div>
+				<a href="tel:88004882222" class="mob-callback__phone"></a>
+				<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>" class="mob-callback__phone"></a> -->
+
+				<a href="#" class="bascket-icon"><span class="bascket-icon__number bascet_counter">1</span></a>
+
+				<div class="header__menu-icon-block">
+					<p class="header__menu-icon-text">Меню</p>
+					<div class="menu__icon icon-menu icon-menu-open">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</header>
+
+<!-- Меню -->
+<div class="header__mob-menu menu">
+	<div class="menu__img">
+		<img src="img/menu.jpg" alt="">
+	</div>
+	<div class="menu__wrap">
+		<div class="menu__header">
+			<a href="index.html" class="header__logo logo-icon"></a> 
+			<a href="#" class="bascket-icon"><span class="bascket-icon__number bascet_counter">1</span></a>
+			<div class="header__menu-icon-block menu-icon-block">
+				<p class="header__menu-icon-text">Меню</p>
+				<div class="menu__icon icon-menu icon-menu-close active">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="menu__body">
+			<div class="menu__list">
+				<h3>Наша продукция</h3>
+				<div class="menu__list-wrap">
+					<ul class="menu__list-item">
+						<li><a href="#">Бумажные стаканчики 170 мл</a></li>
+						<li><a href="#">Бумажные стаканчики 180 мл</a></li>
+						<li><a href="#">Бумажные стаканчики 225 мл</a></li>
+						<li><a href="#">Бумажные стаканчики 250 мл</a></li>
+						<li><a href="#">Бумажные стаканчики 350 мл</a></li>
+						<li><a href="#">Бумажные стаканчики 400 мл</a></li>
+					</ul>
+					<ul class="menu__list-item">
+						<li><a href="#">Однослойные бумажные стаканчики</a></li>
+						<li><a href="#">Двухслойные бумажные стаканчики</a></li>
+						<li><a href="#">Трехслойные бумажные стаканчики</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="menu__list">
+				<h3>Дополнительно</h3>
+				<ul class="menu__list-item">
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Доставка</a></li>
+					<li><a href="#">Разработка дизайна</a></li>
+					<li><a href="#">Этапы производства</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+					<!-- <?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'mob-menu__list',
+						'container_class' => 'mob-menu__list','container' => false )); ?>  -->
+						<!-- <a href="#callback" class="header__popup-link header__popup-link_mob _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
+					</div>
+				</div>
+				<div class="menu__footer">
+					<div class="menu__footer-contacts header__contacts contacts d-flex">
+						<p class="header__time-phone contacts__time-phone">Горячая линия</p>
+						<a href="tel:88004882222" class="header__phone contacts__phone">8 800 488 22 22</a>
+						<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>"><? echo $tel = carbon_get_theme_option("as_phone_1"); ?></a> -->
+					</div>
+					<div class="menu__soc-block">
+						<h4>Мы в социальных сетях </h4>
+						<div class="menu__soc-block-icon soc-block-icon">
+							<a href="#" class="menu__soc-block-icon-link soc-block-icon-link menu__soc-icon-1"></a>
+							<a href="#" class="menu__soc-block-icon-link soc-block-icon-link menu__soc-icon-2"></a>
+							<a href="#" class="menu__soc-block-icon-link soc-block-icon-link menu__soc-icon-3"></a>
+							<a href="#" class="menu__soc-block-icon-link soc-block-icon-link menu__soc-icon-4"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="header__shadow">
+			<img src="img/h-shadow.jpg" alt="">
+		</div>
+
+
+ 
+		<main class="page">
+
+			<div class="bg-img bg-img-01">
+				<img src="img/bg-img/01.png" alt="">
+			</div>
+			<div class="bg-img bg-img-02">
+				<img src="img/bg-img/02.png" alt="">
+			</div>
+			<div class="bg-img bg-img-03">
+				<img src="img/bg-img/03.png" alt="">
+			</div>
+<!-- 			<div class="bg-img bg-img-04">
+				<img src="img/bg-img/04.png" alt="">
+			</div> -->
+			<div class="bg-img bg-img-05">
+				<img src="img/bg-img/05.png" alt="">
+			</div>
+			<div class="bg-img bg-img-06">
+				<img src="img/bg-img/06.png" alt="">
+			</div>
+
+			<section id="catalog-sec" class="catalog-sec recurring">
+				<div class="_container"> 
+					<p id="breadcrumbs">
+						<span>
+							<span>
+								<a href="index.html">
+									Главная
+								</a> /
+								<span class="breadcrumb_last" aria-current="page">
+									Каталог
+								</span>
+							</span>
+						</span>
+					</p>
+					<h2>Каталог продукции</h2>
+					<div class="design-glass__row d-flex">
+	
+	<div class="design-glass__col">
+		<div class="design-glass__body d-flex">
+			<div class="design-glass__volume">
+				<p class="design-glass__volume-descp">400 мл</p>
+			</div>
+			<div class="design-glass__img _bgi">
+				<p class="design-glass__img-descp">ВАШ <br> <span>ДИЗАЙН</span></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="design-glass__col">
+		<div class="design-glass__body d-flex">
+			<div class="design-glass__volume">
+				<p class="design-glass__volume-descp">350 мл</p>
+			</div>
+			<div class="design-glass__img">
+				<p class="design-glass__img-descp">ВАШ <br> <span>ДИЗАЙН</span></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="design-glass__col">
+		<div class="design-glass__body d-flex">
+			<div class="design-glass__volume">
+				<p class="design-glass__volume-descp">250 мл</p>
+			</div>
+			<div class="design-glass__img">
+				<p class="design-glass__img-descp">ВАШ <br> <span>ДИЗАЙН</span></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="design-glass__col">
+		<div class="design-glass__body d-flex">
+			<div class="design-glass__volume">
+				<p class="design-glass__volume-descp">180 мл</p>
+			</div>
+			<div class="design-glass__img">
+				<p class="design-glass__img-descp">ВАШ <br> <span>ДИЗАЙН</span></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="design-glass__col">
+		<div class="design-glass__body d-flex">
+			<div class="design-glass__volume">
+				<p class="design-glass__volume-descp">175 мл</p>
+			</div>
+			<div class="design-glass__img">
+				<p class="design-glass__img-descp">ВАШ <br> <span>ДИЗАЙН</span></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="design-glass__col">
+		<div class="design-glass__body d-flex">
+			<div class="design-glass__volume">
+				<p class="design-glass__volume-descp">110 мл</p>
+			</div>
+			<div class="design-glass__img">
+				<p class="design-glass__img-descp">ВАШ <br> <span>ДИЗАЙН</span></p>
+			</div>
+		</div>
+	</div>
+
+</div> 
+				</div>
+			</section>
+
+			<section id="offer-thickness" class="offer-thickness">
+	<div class="_container">
+
+		<div class="offer-thickness__yelow-block">
+			<h2>
+				Мы предлагаем бумажные стаканчики <br>
+				различного объема
+			</h2>
+
+			<div class="offer-thickness__row d-flex">
+
+				<div class="thickness__body d-flex">
+					<div class="thickness__img">
+						<img src="img/thickness/01.png" alt="">
+					</div>
+					<div class="thickness__item-descp _shadow d-flex">
+						<p class="thickness__descp">ОДНОСЛОЙНЫЕ</p>
+					</div>
+				</div>
+
+				<div class="thickness__body d-flex">
+					<div class="thickness__img">
+						<img src="img/thickness/02.png" alt="">
+					</div>
+					<div class="thickness__item-descp _shadow d-flex">
+						<p class="thickness__descp">ДВУХСЛОЙНЫЕ</p>
+					</div>
+				</div>
+
+				<div class="thickness__body d-flex">
+					<div class="thickness__img">
+						<img src="img/thickness/01.png" alt="">
+					</div>
+					<div class="thickness__item-descp _shadow d-flex">
+						<p class="thickness__descp">ТРЕХСЛОЙНЫЕ</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+</section> 
+
+			<section id="payment-info" class="payment-info">
+	<div class="form-applic__img-left">
+		<img src="img/bg-img/07.png" alt="">
+	</div>
+	<div class="payment-info__container _container">
+
+		<div class="payment-info__row d-flex">
+			<div class="payment-info__descp">
+				<h2 class="title">
+					Рассчитайте 
+					стоимость Ваших 
+					стаканчиков
+				</h2>
+				<p>
+					Для точной оценки стоимости 
+					тиража нам необходимо немного
+					дополнительной информации
+					начать обсуждение можно при
+					помощи этой формы
+				</p>
+			</div>
+			<form action="#" class="payment-info__form form-applic">
+				<div class="form__line d-flex">
+
+					<div class="form-applic__column">
+						<input id="name" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Имя"
+						class="input _req">
+
+						<input id="tel" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Телефон"
+						class="input _digital _req">
+
+						<input id="email" autocomplete="off" type="text" name="form[]" data-error="Заполните поля"
+						data-value="Email" class="input _email _req">
+
+						<input id="circulation" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Тираж"
+						class="input _digital _req">
+					</div>
+
+					<div class="form-applic__column">
+						<input id="design" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Дизайн"
+						class="input _req">
+
+						<textarea id="tel" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Комментарий"
+						class="input _req"></textarea>
+
+						<p class="form-applic__text">
+							Заполняя и отправляя данную форму Вы соглашаетесь с 
+							условиями политики конфиденциальности и обработки 
+							персональных данных
+						</p>
+					</div>
+
+				</div>
+				<button class="form-applic__btn _shadow btn">Рассчитать тираж</button>
+			</form>
+			<div class="form-applic__img-right">
+				<img src="img/bg-img/08.png" alt="">
+			</div>
+		</div>
+
+	</div>
+</section> 
+
+		</main>
+		<footer id="footer" class="footer">
+	<div class="footer__container _container">
+
+		<div class="footer__row d-flex">
+
+			<div class="footer__column">
+				<ul class="footer__menu-list footer__menu-list_first">
+					<li><a href="#" class="menu__link">Наш каталог</a></li>
+					<li><a href="#" class="menu__link">Контакты</a></li> 
+				</ul>
+				<div class="footer__contacts contacts d-flex">
+					<p class="footer__time-phone contacts__time-phone">Горячая линия</p>
+					<a href="tel:88004882222" class="footer__phone contacts__phone">8 800 488 22 22</a>
+					<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>"><? echo $tel = carbon_get_theme_option("as_phone_1"); ?></a> -->
+				</div>
+			</div>
+
+			<div class="footer__column">
+				<ul class="footer__menu-list">
+					<li><a href="#" class="menu__link">О нас</a></li>
+					<li><a href="#" class="menu__link">Доставка</a></li>
+					<li><a href="#" class="menu__link">Разработка дизайна</a></li>
+					<li><a href="#" class="menu__link">Этапы производства</a></li>
+					<li><a href="#" class="menu__link">Ассортимент</a></li> 
+				</ul>
+			</div>
+
+			<div class="footer__column">
+				<div class="contacts__mail">
+					<p class="contacts__text">По вопросам оптовых поставок</p>
+					<a href="mailto:opt@cupprof.ru" class="contacts__email">opt@cupprof.ru</a>
+				</div>
+				<div class="contacts__mail">
+					<p class="contacts__text">По вопросам сотрудничества</p>
+					<a href="mailto:info@cupprof.ru" class="contacts__email">info@cupprof.ru</a>
+				</div>
+			</div>
+
+			<div class="footer__column">
+				<div class="footer__policy">
+					<a href="#" class="footer__policy-link">
+						Политика в области защиты <br>
+						персональных данных
+					</a>	
+					<a href="#callback" class="footer__callback _shadow _popup-link btn">Задать вопрос</a>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="footer__line"></div>
+
+		<div class="footer__row footer__row_bottom d-flex">
+			<div class="footer__soc-block-icon soc-block-icon">
+				<a href="#" class="soc-block-icon-link soc-icon-1"></a>
+				<a href="#" class="soc-block-icon-link soc-icon-2"></a>
+				<a href="#" class="soc-block-icon-link soc-icon-3"></a>
+				<a href="#" class="soc-block-icon-link soc-icon-4"></a>
+			</div>
+			<p class="footer__policy-label">CupProff 2021 ©</p>
+		</div>
+
+	</div>
+</footer>
+	</div>
+	<!-- Popup-с формой -->
+<div class="popup popup_callback">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+			<div class="popup__item d-flex">
+				<div class="popup__img">
+					<img src="img/popup.jpg" alt="">
+				</div>
+				<div class="popup__form-block">
+					<h2>Заказать звонок</h2>
+					<p class="popup__notific">Оставьте заявку и мы свяжемся с Вами в течении 15 минут</p>
+					<form action="#" class="form">
+						<div class="form__line">
+							<input id="name" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Имя"
+								class="popup__form-input input _req">
+							<input id="tel2" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Телефон"
+								class="popup__form-input input _phone _req">
+							<input id="email" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Email"
+								class="popup__form-input input _email _req">
+						</div>
+						<p class="popup__policy">Заполняя данную форму вы соглашаетесь с <a href="#">политикой
+								конфиденциальности</a></p>
+						<button class="popup__form-btn form__btn btn">Заказать</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- <a href="#callback" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
+<!-- =============================================================================================================================== -->
+
+
+<div class="popup popup_popup">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+		</div>
+	</div>
+</div>
+<!-- =============================================================================================================================== -->
+
+<div class="popup popup_massagename-message">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+		</div>
+	</div>
+</div>
+<!-- =============================================================================================================================== -->
+
+<div class="popup popup_video">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close popup__close_video"></div>
+			<div class="popup__video _video"></div>
+		</div>
+	</div>
+</div>
+<!-- <a href="#video" data-video="stFOy0Noahg" class=" _popup-link">Открыть видео</a> -->
+<!-- =============================================================================================================================== -->
+
+<!-- Popup-CSS -->
+<!-- <div id="popup-2" class="popup-2">
+	<a href="#" class="popup__area-2"></a>
+	<div class="popup__body-2">
+		<div class="popup__content-2">
+
+			<a href="#" class="popup__close-2">Close</a>
+			<div class="popup__title">Заказать ворота Дешево!</div>
+			<div class="popup__text">
+				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
+				Алютех и REHAU и Авелор
+			</div>
+			<div class="popup__text">
+				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
+				Алютех и REHAU и Авелор
+			</div>
+			<div class="popup__text">
+				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
+				Алютех и REHAU и Авелор
+			</div>
+			<div class="popup__text">
+				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
+				Алютех и REHAU и Авелор
+			</div>
+			<div class="popup__text">
+				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
+				Алютех и REHAU и Авелор
+			</div>
+
+		</div>
+	</div>
+</div> -->
+<!-- <a href="#popup-2" class="heading-info__button popup-link"></a> -->
+	<!-- Swiper -->
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script> -->
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+</body>
+
+</html>

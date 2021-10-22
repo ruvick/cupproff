@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html',{
+	"title":"Каталог продукции"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('_header.html',{}) 
+		<main class="page">
+
+			<div class="bg-img bg-img-01">
+				<img src="img/bg-img/01.png" alt="">
+			</div>
+			<div class="bg-img bg-img-02">
+				<img src="img/bg-img/02.png" alt="">
+			</div>
+			<div class="bg-img bg-img-03">
+				<img src="img/bg-img/03.png" alt="">
+			</div>
+<!-- 			<div class="bg-img bg-img-04">
+				<img src="img/bg-img/04.png" alt="">
+			</div> -->
+			<div class="bg-img bg-img-05">
+				<img src="img/bg-img/05.png" alt="">
+			</div>
+			<div class="bg-img bg-img-06">
+				<img src="img/bg-img/06.png" alt="">
+			</div>
+
+			<section id="catalog-sec" class="catalog-sec recurring">
+				<div class="_container"> 
+					<p id="breadcrumbs">
+						<span>
+							<span>
+								<a href="index.html">
+									Главная
+								</a> /
+								<span class="breadcrumb_last" aria-current="page">
+									Каталог
+								</span>
+							</span>
+						</span>
+					</p>
+					<h2>Каталог продукции</h2>
+					@@include('_design-glass.html',{}) 
+				</div>
+			</section>
+
+			@@include('_offer-thickness.html',{}) 
+
+			@@include('_payment-info.html',{}) 
+
+		</main>
+		@@include('_footer.html',{})
+	</div>
+	@@include('_popup.html',{})
+	@@include('_js.html',{})
+</body>
+
+</html>
