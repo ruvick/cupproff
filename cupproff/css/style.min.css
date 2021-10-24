@@ -574,10 +574,12 @@ textarea.input {
 }
 
 .quantity {
-  width: 88px;
-  height: 40px;
   display: flex;
-  border: 1px solid rgba(166, 166, 166, 0.45);
+  width: 90px;
+  height: 42px;
+  padding: 0 3px;
+  border: 1px solid #BABABA;
+  border-radius: 35px;
 }
 .quantity__button {
   flex: 0 0 30px;
@@ -591,7 +593,7 @@ textarea.input {
   left: 50%;
   transition: all 0.3s ease 0s;
   margin: 0px 0px 0px -4.5px;
-  background-color: #a6a6a6;
+  background-color: #161615;
   width: 9px;
   height: 1px;
 }
@@ -607,10 +609,9 @@ textarea.input {
   flex: 1 1 auto;
 }
 .quantity__input input {
-  height: 100%;
-  color: #a6a6a6;
-  font-size: 12px;
   width: 100%;
+  height: 100%;
+  color: #161615;
   text-align: center;
 }
 
@@ -1016,7 +1017,7 @@ body.ie ._ibg img {
 }
 
 #breadcrumbs {
-  margin-bottom: 40px;
+  margin-bottom: 33px;
 }
 
 #breadcrumbs ul {
@@ -1031,89 +1032,14 @@ body.ie ._ibg img {
 }
 
 #breadcrumbs span {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 23px;
-  color: #000;
+  font-size: 16px;
+  color: #161615;
 }
 
 #breadcrumbs span a {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 23px;
-  margin-right: 5px;
-  color: #5E5E5E;
-  text-decoration: underline;
-}
-
-.pagination {
-  justify-content: center;
-}
-.pagination__nav-links {
-  max-width: 500px;
-  width: 100%;
-  align-items: center;
-}
-.pagination__back {
-  max-width: 93.5px;
-  width: 100%;
-  height: 34px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 12px;
-  border: 0.4px solid #c7c9cb;
-  margin-right: 37px;
-  position: relative;
-}
-.pagination__back:before {
-  content: "";
-  position: absolute;
-  top: 36%;
-  left: 10%;
-  width: 5px;
-  height: 10px;
-  background: url("../img/icons/pagination__back.svg");
-  background-repeat: no-repeat;
-}
-.pagination__numbers {
-  margin-right: 20px;
   font-size: 16px;
-}
-.pagination__block-dot {
-  margin-right: 20px;
-  justify-content: space-between;
-  width: 30px;
-}
-.pagination__dot {
-  display: block;
-  font-size: 16px;
-}
-.pagination__next {
-  max-width: 93.5px;
-  width: 100%;
-  height: 34px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 12px;
-  border: 0.4px solid #c7c9cb;
-  margin-left: 13px;
-  position: relative;
-}
-.pagination__next:after {
-  content: "";
-  position: absolute;
-  top: 36%;
-  right: 10%;
-  width: 5px;
-  height: 10px;
-  background: url("../img/icons/pagination__next.svg");
-  background-repeat: no-repeat;
-}
-
-.current {
-  color: #d3820f;
+  margin-right: 2px;
+  color: #161615;
 }
 
 .pagging {
@@ -2170,32 +2096,6 @@ body.ie ._ibg img {
   margin-bottom: 80px;
 }
 
-#breadcrumbs {
-  margin-bottom: 33px;
-}
-
-#breadcrumbs ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-#breadcrumbs span {
-  font-size: 16px;
-  color: #161615;
-}
-
-#breadcrumbs span a {
-  font-size: 16px;
-  margin-right: 2px;
-  color: #161615;
-}
-
 .soc-block-icon {
   display: flex;
   justify-content: space-between;
@@ -2817,6 +2717,72 @@ body.ie ._ibg img {
 
 .products-sec__row {
   margin-bottom: 38px;
+}
+
+.product__row {
+  justify-content: space-between;
+}
+
+.product__slider {
+  flex: 0 0 43.65%;
+  height: 628px;
+  border: 1px solid #BABABA;
+  border-radius: 35px;
+  background: url("../img/nophoto.jpg");
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-right: 105px;
+}
+
+.product__descp {
+  flex: 1 1 auto;
+}
+
+.product__charect {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 54px;
+}
+
+.product__price {
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.product__avail {
+  margin-bottom: 33px;
+}
+
+.product__vendor {
+  margin-bottom: 16px;
+}
+
+.product__volume {
+  margin-bottom: 16px;
+}
+
+.product__choice {
+  align-items: center;
+  margin-bottom: 62px;
+}
+
+.product__quantity {
+  margin-right: 41px;
+}
+
+.product__btn {
+  padding: 6px 25px;
+}
+
+.product__text h3 {
+  margin-bottom: 30px;
+}
+.product__text p {
+  font-size: 18px;
+  line-height: 26px;
 }
 
 @media (max-width: 1200px) {
