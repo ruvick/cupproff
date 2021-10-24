@@ -716,6 +716,12 @@ h4 {
 		border-radius: 43px;
     overflow: hidden;
     margin-bottom: 22px;
+    img {
+    	transition: 1s;
+    }
+    img:hover {
+    	transform: scale(1.1);
+    }
 	}
 	&__descp {
     display: flex;
