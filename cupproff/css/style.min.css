@@ -1944,15 +1944,14 @@ body.ie ._ibg img {
   margin-right: 0;
 }
 
-.mob-callback__phone {
+.mob-phone-icon {
   display: none;
   flex: 0 0 30px;
   height: 30px;
   justify-content: center;
   align-items: center;
 }
-
-.mob-callback__phone:before {
+.mob-phone-icon:before {
   content: "";
   float: left;
   width: 100%;

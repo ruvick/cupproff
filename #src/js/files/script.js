@@ -3,8 +3,8 @@
 // });
 
 // const iconMenu = document.querySelector(".icon-menu");
-const iconMenuOpen = document.querySelector(".icon-menu-open");
-const iconMenuClose = document.querySelector(".icon-menu-close");
+const iconMenuOpen = document.querySelector(".icon-menu_open");
+const iconMenuClose = document.querySelector(".icon-menu_close");
 const body = document.querySelector("body");
 const menuBody = document.querySelector(".menu");
 const menuListItemElems = document.querySelector(".menu__list-item");
