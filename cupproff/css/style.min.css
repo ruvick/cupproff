@@ -1558,7 +1558,7 @@ body.ie ._ibg img {
   opacity: 1;
 }
 .popup._active .popup__body {
-  border-radius: 5px;
+  border-radius: 33px;
   transform: scale(1);
   transition: all 0.3s ease 0.2s;
 }
@@ -1580,8 +1580,8 @@ body.ie ._ibg img {
 }
 .popup__close {
   position: absolute;
-  top: 18px;
-  right: 15px;
+  top: 20px;
+  right: 18px;
   cursor: pointer;
   z-index: 30;
   width: 20px;
@@ -1620,7 +1620,7 @@ body.ie ._ibg img {
 
 .popup__form-btn {
   font-size: 18px;
-  min-width: 160px;
+  padding: 6px 45px;
 }
 
 /*Popup-CSS*/
@@ -2256,8 +2256,7 @@ body.ie ._ibg img {
   font-weight: 700;
 }
 .about__btn {
-  padding-left: 34px;
-  padding-right: 34px;
+  padding: 10px 34px;
   margin-top: 28px;
 }
 
