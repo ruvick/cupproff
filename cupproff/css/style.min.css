@@ -888,8 +888,8 @@ body.ie ._ibg img {
   position: absolute;
   top: 50%;
   z-index: 5000;
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   background: #000;
   border-radius: 50%;
   cursor: pointer;
@@ -2196,23 +2196,50 @@ body.ie ._ibg img {
   margin-right: 50px;
 }
 
+.about__row {
+  align-items: center;
+}
+
 .about__slider-wrap {
   position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 795px;
   width: 100%;
   height: 795px;
   margin-right: 61px;
 }
 
-.about__slider {
-  background: #FFE268;
+.about__slider-substrate {
+  position: absolute;
+  top: 3%;
+  left: 5.5%;
+  z-index: -1;
+  width: 93%;
+  height: 93%;
   border-radius: 50%;
-  overflow: hidden;
 }
 
-.about__row {
+.about__slider-substrate_yellow {
+  background: #FFE268;
+}
+
+.about__slider {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex: 0 1 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.about__swiper-button-next {
+  left: 3%;
+}
+
+.about__swiper-button-prev {
+  right: -1%;
 }
 
 .about__descp {
