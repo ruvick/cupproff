@@ -2821,9 +2821,29 @@ body.ie ._ibg img {
     padding: 0 10px;
   }
 }
+@media (max-width: 1330px) {
+  .how-work-info {
+    flex: 0 1 18%;
+  }
+}
+@media (max-width: 1200px) {
+  .how-work-info {
+    flex: 0 1 19%;
+    padding: 20px 25px;
+  }
+
+  .how-work-info:before {
+    margin-bottom: 35px;
+  }
+}
 @media (max-width: 1280px) {
   .header {
     padding: 10px 0;
+  }
+}
+@media (max-width: 1050px) {
+  .how-work-info h3 {
+    font-size: 18px;
   }
 }
 @media (max-width: 1024px) {
@@ -2846,6 +2866,24 @@ body.ie ._ibg img {
     flex: 0 1 200px;
     height: 100px;
     padding: 5px 20px 5px 45px;
+  }
+}
+@media (max-width: 960px) {
+  .how-work-info {
+    flex: 0 1 19%;
+    padding: 18px 20px;
+  }
+
+  .how-work-info:before {
+    margin-bottom: 15px;
+  }
+
+  .how-work-info h3 {
+    font-size: 16px;
+  }
+
+  .how-work-info:before {
+    background-size: 80%;
   }
 }
 @media (max-width: 860px) {
@@ -2881,6 +2919,19 @@ body.ie ._ibg img {
 
   .header__menu-icon-block {
     height: 100px;
+  }
+
+  .how-work-info {
+    flex: 0 1 19%;
+    padding: 20px;
+  }
+
+  .how-work-info:before {
+    margin-bottom: 10px;
+  }
+
+  .how-work-info h3 {
+    font-size: 14px;
   }
 }
 @media (max-width: 768px) {
@@ -3049,6 +3100,27 @@ body.ie ._ibg img {
   .footer__soc-block-icon-link::before {
     background-size: 90%;
   }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .how-work__row {
+    width: auto;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 10px;
+    overflow-x: auto;
+  }
+
+  .how-work-info {
+    flex: 0 0 21%;
+    margin-right: 15px;
+  }
+
+  .how-work-info:last-child {
+    margin-right: 0;
+  }
 }
 @media (max-width: 700px) {
   .mob-menu {
@@ -3066,6 +3138,10 @@ body.ie ._ibg img {
 
   .popup__form-block {
     padding: 35px 15px;
+  }
+
+  .how-work-info {
+    flex: 0 0 26%;
   }
 }
 @media (max-width: 540px) {
@@ -3095,6 +3171,10 @@ body.ie ._ibg img {
   .footer__policy {
     align-items: center;
   }
+
+  .how-work-info {
+    flex: 0 0 33%;
+  }
 }
 @media (max-width: 515px) {
   .logo-icon {
@@ -3122,6 +3202,10 @@ body.ie ._ibg img {
   .footer__callback {
     width: 100%;
   }
+
+  .how-work-info {
+    flex: 0 0 43%;
+  }
 }
 @media (max-width: 375px) {
   .bascket-icon {
@@ -3143,5 +3227,9 @@ body.ie ._ibg img {
 
   .footer__soc-block-icon {
     width: 180px;
+  }
+
+  .how-work-info {
+    flex: 0 0 50%;
   }
 }

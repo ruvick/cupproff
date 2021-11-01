@@ -68,10 +68,10 @@ let aboutSlider = new Swiper('.about__slider', {
 		crossFade: true
 	},
 
-	autoplay: {
-		delay: 2000,
-		disableOnInteraction: false,
-	},
+	// autoplay: {
+	// 	delay: 2000,
+	// 	disableOnInteraction: false,
+	// },
 
 	observer: true,
 	observeParents: true,
