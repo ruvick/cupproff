@@ -407,12 +407,12 @@ h4 {
 }
 
 .advant__container {
-  max-width: 1700px;
-  padding-right: 20px;
-  margin-left: 0px;
+	display: flex;
+	max-width: 100%;
 }
 
 .advant__row {
+	max-width: 1680px;
 	justify-content: space-between;
 }
 
@@ -612,14 +612,17 @@ h4 {
 }
 
 .payment-info__container {
-	max-width: 1650px;
-	margin-right: 0;
+	display: flex;
+	justify-content: flex-end;
+	max-width: 100%;
 }
 
 .payment-info__row {
 	position: relative;
+	max-width: 1640px;
 	justify-content: space-between;
 }
+
 .payment-info__descp {
 	flex: 0 1 380px;
 	p {

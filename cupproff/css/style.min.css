@@ -2373,12 +2373,12 @@ body.ie ._ibg img {
 }
 
 .advant__container {
-  max-width: 1700px;
-  padding-right: 20px;
-  margin-left: 0px;
+  display: flex;
+  max-width: 100%;
 }
 
 .advant__row {
+  max-width: 1680px;
   justify-content: space-between;
 }
 
@@ -2582,12 +2582,14 @@ body.ie ._ibg img {
 }
 
 .payment-info__container {
-  max-width: 1650px;
-  margin-right: 0;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 100%;
 }
 
 .payment-info__row {
   position: relative;
+  max-width: 1640px;
   justify-content: space-between;
 }
 
