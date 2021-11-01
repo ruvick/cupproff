@@ -1631,7 +1631,23 @@ body.ie ._ibg img {
   background: #fff;
 }
 .header__row {
+  max-width: 1700px;
+  width: 100%;
   justify-content: space-between;
+}
+
+.header__container {
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0;
+}
+
+.header__shadow {
+  position: absolute;
+  bottom: -20%;
+  left: 0;
+  right: 0;
 }
 
 .header-index {
@@ -1648,16 +1664,6 @@ body.ie ._ibg img {
   height: 1000px;
   background: #D2D3D5;
   border-radius: 0 0 0 85px;
-}
-
-.header__shadow {
-  top: 9%;
-  left: 0;
-}
-
-.header__container {
-  max-width: 1600px;
-  margin-right: 80px;
 }
 
 .header__logo {
@@ -1743,7 +1749,6 @@ body.ie ._ibg img {
   background: #FFBD1F;
   border-radius: 0 0 0 30px;
   margin-top: -16px;
-  margin-right: -80px;
 }
 
 .header__menu-icon-text {
