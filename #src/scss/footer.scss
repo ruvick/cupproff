@@ -1,7 +1,7 @@
 .footer {
   padding: 43px 0 35px 0;
   color: #fff;
-  background: #8C8B8B; 
+  background: #8C8B8B;  
 
   &__container {
     // display: flex;
@@ -14,7 +14,14 @@
     flex-wrap: wrap;
   }
 
-  &__menu-list {
+  &__column {
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__menu {
     li {
     margin-bottom: 15px;
       &:last-child {
@@ -25,50 +32,32 @@
         color: #fff;
     }
   }
-}
-
-.footer__menu-list_first {
-  margin-bottom: 20px;
-}
-
-.footer__menu-list_first li {
-  font-size: 34px;
-  line-height: 26px;
-  font-weight: 700;
-}
-
-.footer__phone {
-  color: #fff;
-}
-
-.footer__row_bottom {
-  align-items: center; 
-  margin-top: 30px;
-}
-
-.contacts {
-  // .contacts__mail
+    &__menu_first {
+      margin-bottom: 20px;
+    }
+    &__menu_first li {
+      font-size: 34px;
+      line-height: 26px;
+      font-weight: 700;
+    }
+    // .footer__mail
   &__mail {
     margin-bottom: 46px;
     &:last-child {
       margin-bottom: 0;
     }
   }
-  // .contacts__text
-  &__text {
+  // .footer__mail-text
+  &__mail-text {
     margin-bottom: 15px;
   }
-  // .contacts__email
-  &__email {
+  // .footer__mail-link
+  &__mail-link {
     font-size: 34px;
     line-height: 26px;
     color: #fff;
   }
-}
-
-.footer {
-  // .footer__policy
-  &__policy {
+    &__policy {
     display: flex;
     flex-direction: column;
   }
@@ -76,26 +65,30 @@
   &__policy-link {
     line-height: 30px;
     color: #fff;
-    margin-bottom: 65px;
   }
   // .footer__callback
   &__callback {
     padding-left: 51px;
     padding-right: 51px;
+    margin-top: 65px;
+  }
+  &__phone {
+    color: #fff;
+  }
+  &__line {
+    width: 100%;
+    height: 1px;
+    background: #FFBD1F;
+    margin-top: 50px;
+  }
+  &__soc-block-icon {
+    margin-right: 15px;
+  }
+  &__row_bottom {
+    align-items: center; 
+    margin-top: 30px;
   }
 }
-
-.footer__line {
-  width: 100%;
-  height: 1px;
-  background: #FFBD1F;
-  margin-top: 50px;
-}
-
-.footer__soc-block-icon {
-  margin-right: 15px;
-}
-
 
 
 
