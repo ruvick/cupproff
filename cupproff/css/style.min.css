@@ -1808,7 +1808,7 @@ body.ie ._ibg img {
   -webkit-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  top: 12px;
+  top: 16px;
 }
 
 .icon-menu.active span:last-child {
@@ -1817,7 +1817,11 @@ body.ie ._ibg img {
   -webkit-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-  bottom: 15px;
+  bottom: 13px;
+}
+
+.icon-menu_close {
+  flex: 0 0 32px;
 }
 
 .menu {
