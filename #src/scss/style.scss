@@ -17,7 +17,7 @@
 	src: url('../fonts/ProximaNovaExCn-Thin.eot');
 	src: local('☺'), url('../fonts/ProximaNovaExCn-Thin.woff') format('woff'), url('../fonts/ProximaNovaExCn-Thin.ttf') format('truetype'), url('../fonts/ProximaNovaExCn-Thin.svg') format('svg');
 	font-weight: 100;
-	font-style: normal;  
+	font-style: normal;   
 }
 
 @font-face {
@@ -476,6 +476,7 @@ h4 {
 	// .design-glass__body
 	&__body {
 		flex: 0 1 100%;
+		justify-content: flex-end;
 		align-items: flex-end;
 		overflow: hidden;
 	}
@@ -500,6 +501,7 @@ h4 {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		flex-direction: column; 
 		flex: 0 1 225px;
 		height: 343px;
 		padding: 10px;
@@ -520,6 +522,10 @@ h4 {
 			font-size: 45.1px;
 			font-weight: 400;
 		}
+	}
+	&__img-volume-descp {
+		margin-top: 15px;
+		display: none;
 	}
 }
 
@@ -592,13 +598,14 @@ h4 {
 
 .thickness__body {
 	position: relative;
+	width: 100%;
 	margin-right: 10px;
 	&:last-child {
 		margin-right: 0;
 	}
 }
 .thickness__img {
-	position: absolute;
+	position: absolute; 
 	left: -22%;
 	bottom: -30%;
 	// flex: 0 1 351px;
@@ -612,7 +619,7 @@ h4 {
 	justify-content: flex-end;
 	align-items: center;
 	flex: 0 1 415px;
-	width: 415px;
+	// width: 415px;
 	height: 103px;
 	padding: 25px;
 	background: #fff;
@@ -644,7 +651,8 @@ h4 {
 }
 
 .payment-info__descp {
-	flex: 0 1 380px;
+	flex: 0 0 380px;
+	margin-right: 25px;
 	p {
 		font-size: 24px;
 		line-height: 30px;
@@ -789,7 +797,7 @@ h4 {
 	}
 	&__charect {
 		font-size: 14px;
-		justify-content: space-between;
+		justify-content: space-between; 
 		align-items: center;
 	}
 	&__price {

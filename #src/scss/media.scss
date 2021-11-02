@@ -1,8 +1,10 @@
 //<Адаптив>===========================================================================================================================================
 @media (max-width: 1700px) {
- .advant__container {
- 	padding-left: 0 !important;
- 	padding-right: 10px;}
+  .advant__container {
+ 	  padding-left: 0 !important;
+ 	  padding-right: 10px;}
+  .payment-info__container {
+    padding-left: 10px;}
 }
 
 @media (max-width: 1500px) {
@@ -11,7 +13,7 @@
 	}
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1440px) { 
 	.advant__img {
     flex: 0 1 750px;}
 	.advant__title {
@@ -23,11 +25,24 @@
     flex: 0 1 18%;}
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1280px) { 
 	.header {
     padding: 10px 0;}
   .advant-info {
 		padding: 17px 20px 33px 20px;}
+  .design-glass__volume {
+    margin-bottom: 55px;}
+  .thickness__img {
+    bottom: -10%;}
+  .payment-info__descp {
+    flex: 0 1 50%;}
+  .payment-info {
+    padding: 50px 0;}
+}
+
+@media (max-width: 1250px) { 
+  .thickness__img {
+    bottom: -8%;}
 }
 
 @media (max-width: 1200px) { 
@@ -40,6 +55,15 @@
   	margin-bottom: 15px;}
   .advant-info h3 {
   	font-size: 20px;}
+  .form-applic {
+    padding: 35px 35px 45px 35px;}
+}
+
+@media (max-width: 1150px) { 
+  .design-glass__row {
+    margin: 0 -25px;}
+  .design-glass__col {
+    padding: 0 25px;}
 }
 
 @media (max-width: 1100px) { 
@@ -74,6 +98,11 @@
     flex: 0 1 200px;
     height: 100px;
     padding: 5px 20px 5px 45px;}
+  .design-glass__row {
+    margin: 0 -15px;}
+  .design-glass__col {
+    padding: 0 15px;
+    margin-bottom: 25px;}
 }
 
 @media (max-width: 960px) {
@@ -108,6 +137,17 @@
   .advant-icon-04:before {
     width: 63px;    
     height: 33px;}
+  .design-glass__volume {
+    padding: 13px 15px;}
+  .design-glass__volume-descp {
+    font-size: 28px;}
+  .thickness__img {
+    bottom: 6%;}
+  .payment-info__title {
+    font-size: 36px;
+    margin-bottom: 25px;}
+  .payment-info__descp p {
+    font-size: 20px;}
 }
 
 @media (max-width: 860px) {
@@ -122,6 +162,21 @@
 	.header__menu-icon-block {
     flex: 0 1 200px;
     padding: 5px 20px 5px 35px;}
+  .design-glass__volume {
+    flex: 0 1 250px;
+    height: 83px;
+    padding: 10px 15px;}
+  .design-glass__volume-descp {
+    font-size: 20px;}
+  .thickness__item-descp {
+    height: 80px;
+    padding: 20px;}
+  .thickness__descp {
+    font-size: 20px;}
+  .thickness__img {
+    max-width: 250px;
+    height: 200px;
+    bottom: -3px;}
 }
 
 @media (max-width: 812px) {
@@ -143,6 +198,16 @@
 		margin-bottom: 15px;} 
 	.advant__img {
     flex: 0 1 530px;}
+  .design-glass__volume {
+    display: none;}
+  .design-glass__img-volume-descp {
+    display: flex;}
+  .payment-info__row {
+    flex-wrap: wrap;}
+  .payment-info__descp {
+    flex: 0 1 100%;
+    margin-right: 0;
+    margin-bottom: 15px;}
 }
 
 @media (max-width: 768px) { 
@@ -205,7 +270,7 @@
 	section {
 		padding: 20px 0 !important;}
 	.title {
-		margin-bottom: 15px;}
+		margin-bottom: 25px;}
 	.footer {
 		padding: 15px 0;}
 	.footer__menu li {
@@ -294,6 +359,45 @@
   .advant-icon-04:before {
     width: 43px;
     height: 43px;}
+  .design-glass__img {
+    flex: 0 1 100%;
+    padding: 0;}
+  .offer-thickness__yelow-block {
+    padding: 25px;}
+  .offer-thickness__yelow-block h2 {
+    margin-bottom: 25px;}
+  .thickness__img {
+    display: none;
+    max-width: 150px;
+    height: 150px;
+    left: -10px;
+    bottom: 15px;}
+  .thickness__item-descp {
+    justify-content: center;
+    height: 65px;
+    padding: 20px;}
+  .thickness__descp {
+    font-size: 18px;}
+  .payment-info__title {
+    font-size: 24px;
+    margin-bottom: 15px;}
+  .payment-info__descp p {
+    font-size: 14px;
+    line-height: 1.3;}
+  .form-applic {
+    padding: 25px;}
+  .form-applic__btn {
+    font-size: 18px;
+    margin-top: 15px;}
+  .form-applic .form__line {
+    justify-content: space-between;}
+  .form-applic__column {
+    flex: 0 1 48%;
+    margin-right: 10px;}
+  .form-applic__column input {
+    margin-bottom: 10px;}
+  .form-applic__btn {
+    margin-top: 10px;}
 }
 
 @media (max-width: 700px) {
@@ -303,6 +407,26 @@
 		-webkit-transition: right 0.8s;
 		-o-transition: right 0.8s;
 		transition: right 0.8s; }
+  .design-glass__row {
+    width: auto;
+    flex-wrap: nowrap;
+    overflow: auto;
+    margin: 0;}
+  .design-glass__col {
+    flex: 0 0 35%;
+    padding: 0;
+    margin-right: 15px;
+    margin-bottom: 0;}
+  .design-glass__col:last-child {
+    margin-right: 0;}
+}
+
+@media (max-width: 630px) {
+  .thickness__item-descp {
+    height: 55px;
+    padding: 15px;}
+  .thickness__descp {
+    font-size: 14px;}
 }
 
 @media (max-width: 612px) {
@@ -337,6 +461,8 @@
   .advant__img {
     flex: 0 1 100%;
     border-radius: 43px}
+  .design-glass__col {
+    flex: 0 0 43%;}
 }
 
 @media (max-width: 515px) {
@@ -353,6 +479,34 @@
 		flex: 0 1 100%;}
   .advant-info {
     flex: 0 0 38%;}
+  .offer-thickness__row {
+    flex-wrap: wrap;}
+  .offer-thickness__yelow-block {
+    padding: 25px 20px;}
+  .thickness__body {
+    margin-right: 0;
+    margin-bottom: 10px;}
+  .thickness__body:last-child {
+    margin-bottom: 0;}
+  .thickness__item-descp {
+    flex: 0 1 100%;
+    height: 45px;
+    padding: 15px;}
+  .thickness__descp {
+    font-size: 14px;}
+  .form-applic {
+    padding: 25px 15px;}
+  .form-applic .form__line {
+    flex-wrap: wrap;}
+  .form-applic__column {
+    flex: 0 1 100%;
+    margin-right: 0;
+    margin-bottom: 10px;}
+}
+
+@media (max-width: 460px) {
+  .design-glass__col {
+    flex: 0 0 52%;}
 }
 
 @media (max-width: 414px) {
@@ -362,6 +516,8 @@
     flex: 0 0 43%;}
   .advant-info {
     flex: 0 0 43%;}
+  .form-applic__btn {
+    width: 100%;}
 }
 
 @media (max-width: 375px) {
