@@ -2383,8 +2383,9 @@ body.ie ._ibg img {
 .advant__img {
   flex: 0 1 923px;
   max-height: 668px;
-  border-radius: 0 53px 53px 0;
+  border-radius: 0 70px 70px 0;
   overflow: hidden;
+  margin-right: 25px;
 }
 
 .advant__card-block {
@@ -2816,14 +2817,38 @@ body.ie ._ibg img {
   line-height: 26px;
 }
 
+@media (max-width: 1700px) {
+  .advant__container {
+    padding-left: 0 !important;
+    padding-right: 10px;
+  }
+}
 @media (max-width: 1500px) {
   ._container {
     padding: 0 10px;
   }
 }
+@media (max-width: 1440px) {
+  .advant__img {
+    flex: 0 1 750px;
+  }
+
+  .advant__title {
+    margin-bottom: 25px;
+  }
+}
 @media (max-width: 1330px) {
   .how-work-info {
     flex: 0 1 18%;
+  }
+}
+@media (max-width: 1280px) {
+  .header {
+    padding: 10px 0;
+  }
+
+  .advant-info {
+    padding: 17px 20px 33px 20px;
   }
 }
 @media (max-width: 1200px) {
@@ -2835,14 +2860,38 @@ body.ie ._ibg img {
   .how-work-info:before {
     margin-bottom: 35px;
   }
+
+  .advant-info {
+    margin-bottom: 15px;
+  }
+
+  .advant-info h3 {
+    font-size: 20px;
+  }
 }
-@media (max-width: 1280px) {
-  .header {
-    padding: 10px 0;
+@media (max-width: 1100px) {
+  .advant__img {
+    flex: 0 1 700px;
+  }
+
+  .advant-info {
+    flex: 0 1 48%;
   }
 }
 @media (max-width: 1050px) {
   .how-work-info h3 {
+    font-size: 18px;
+  }
+
+  .advant__img {
+    flex: 0 1 700px;
+  }
+
+  .advant-info {
+    flex: 0 1 49%;
+  }
+
+  .advant-info h3 {
     font-size: 18px;
   }
 }
@@ -2884,6 +2933,46 @@ body.ie ._ibg img {
 
   .how-work-info:before {
     background-size: 80%;
+  }
+
+  .advant__title {
+    font-size: 38px;
+  }
+
+  .advant__img {
+    margin-right: 10px;
+  }
+
+  .advant-info {
+    padding: 15px 15px 25px 15px;
+  }
+
+  .advant-info h3 {
+    font-size: 16px;
+  }
+
+  .advant-info:before {
+    margin-bottom: 15px;
+  }
+
+  .advant-icon-01:before {
+    width: 63px;
+    height: 63px;
+  }
+
+  .advant-icon-02:before {
+    width: 63px;
+    height: 63px;
+  }
+
+  .advant-icon-03:before {
+    width: 63px;
+    height: 63px;
+  }
+
+  .advant-icon-04:before {
+    width: 63px;
+    height: 33px;
   }
 }
 @media (max-width: 860px) {
@@ -2932,6 +3021,15 @@ body.ie ._ibg img {
 
   .how-work-info h3 {
     font-size: 14px;
+  }
+
+  .advant__title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .advant__img {
+    flex: 0 1 530px;
   }
 }
 @media (max-width: 768px) {
@@ -3121,6 +3219,67 @@ body.ie ._ibg img {
   .how-work-info:last-child {
     margin-right: 0;
   }
+
+  .advant__container {
+    padding-left: 10px !important;
+  }
+
+  .advant__row {
+    max-width: 100%;
+    flex-wrap: wrap-reverse;
+  }
+
+  .advant__img {
+    flex: 0 1 100%;
+    border-radius: 70px;
+    margin-top: 15px;
+    margin-right: 0;
+  }
+
+  .advant__card-block {
+    width: 100%;
+    flex: 0 1 100%;
+  }
+
+  .advant-info {
+    flex: 0 0 23.6%;
+    margin-right: 10px;
+    margin-bottom: 0 !important;
+  }
+
+  .advant-info:last-child {
+    margin-right: 0;
+  }
+
+  .advant__card-row {
+    width: auto;
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+
+  .advant-info h3 {
+    font-size: 14px;
+  }
+
+  .advant-icon-01:before {
+    width: 43px;
+    height: 43px;
+  }
+
+  .advant-icon-02:before {
+    width: 43px;
+    height: 43px;
+  }
+
+  .advant-icon-03:before {
+    width: 43px;
+    height: 33px;
+  }
+
+  .advant-icon-04:before {
+    width: 43px;
+    height: 43px;
+  }
 }
 @media (max-width: 700px) {
   .mob-menu {
@@ -3142,6 +3301,10 @@ body.ie ._ibg img {
 
   .how-work-info {
     flex: 0 0 26%;
+  }
+
+  .advant-info {
+    flex: 0 0 30%;
   }
 }
 @media (max-width: 540px) {
@@ -3175,6 +3338,11 @@ body.ie ._ibg img {
   .how-work-info {
     flex: 0 0 33%;
   }
+
+  .advant__img {
+    flex: 0 1 100%;
+    border-radius: 43px;
+  }
 }
 @media (max-width: 515px) {
   .logo-icon {
@@ -3197,6 +3365,10 @@ body.ie ._ibg img {
   .popup__form-block {
     flex: 0 1 100%;
   }
+
+  .advant-info {
+    flex: 0 0 38%;
+  }
 }
 @media (max-width: 414px) {
   .footer__callback {
@@ -3204,6 +3376,10 @@ body.ie ._ibg img {
   }
 
   .how-work-info {
+    flex: 0 0 43%;
+  }
+
+  .advant-info {
     flex: 0 0 43%;
   }
 }
@@ -3231,5 +3407,9 @@ body.ie ._ibg img {
 
   .how-work-info {
     flex: 0 0 50%;
+  }
+
+  .advant-info {
+    flex: 0 0 53%;
   }
 }
