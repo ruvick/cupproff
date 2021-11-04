@@ -1056,10 +1056,12 @@ body.ie ._ibg img {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 .pagging__arrow_next {
   display: flex;
   align-items: center;
+  padding: 10px;
 }
 .pagging__arrow_next:after {
   content: "";
@@ -1075,6 +1077,10 @@ body.ie ._ibg img {
 }
 .pagging__list {
   display: flex;
+  flex-wrap: wrap;
+}
+.pagging__list li {
+  padding: 3px 0;
 }
 .pagging__item {
   display: flex;
@@ -2092,10 +2098,6 @@ body.ie ._ibg img {
   margin-top: 30px;
 }
 
-.page-recurring {
-  padding-bottom: 150px;
-}
-
 .recurring {
   padding: 36px 0 61px 0;
 }
@@ -2699,14 +2701,13 @@ body.ie ._ibg img {
   display: flex;
   flex: 0 1 25%;
   padding: 0 15px;
+  margin-bottom: 42px;
 }
 .card__body {
   flex: 0 1 100%;
   flex-direction: column;
   border-radius: 10px;
-  background: #fff;
   overflow: hidden;
-  margin-bottom: 42px;
 }
 .card__img-item {
   min-height: 337px;
@@ -2741,8 +2742,10 @@ body.ie ._ibg img {
 }
 .card__charect {
   font-size: 14px;
+  line-height: 1.3;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .card__price {
   font-size: 22px;
@@ -2754,6 +2757,7 @@ body.ie ._ibg img {
   font-size: 14px;
 }
 .card__btn {
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
 }
@@ -2877,6 +2881,14 @@ body.ie ._ibg img {
   .payment-info {
     padding: 50px 0;
   }
+
+  .card__row {
+    margin: 0 -6px;
+  }
+
+  .card__col {
+    padding: 0 6px;
+  }
 }
 @media (max-width: 1250px) {
   .thickness__img {
@@ -2904,6 +2916,10 @@ body.ie ._ibg img {
   .form-applic {
     padding: 35px 35px 45px 35px;
   }
+
+  .card__btn-link {
+    font-size: 18px;
+  }
 }
 @media (max-width: 1150px) {
   .design-glass__row {
@@ -2912,6 +2928,10 @@ body.ie ._ibg img {
 
   .design-glass__col {
     padding: 0 25px;
+  }
+
+  .card__col {
+    flex: 0 1 33.333%;
   }
 }
 @media (max-width: 1100px) {
@@ -3095,6 +3115,10 @@ body.ie ._ibg img {
     max-width: 250px;
     height: 200px;
     bottom: -3px;
+  }
+
+  .card__col {
+    flex: 0 1 50%;
   }
 }
 @media (max-width: 812px) {
@@ -3465,6 +3489,93 @@ body.ie ._ibg img {
   .form-applic__btn {
     margin-top: 10px;
   }
+
+  .charect-sel {
+    margin-bottom: 35px;
+  }
+
+  .page-recurring {
+    padding-top: 50px;
+  }
+
+  .card__row {
+    flex-wrap: nowrap;
+    width: auto;
+    overflow: auto;
+    margin: 0 -10px;
+  }
+
+  .card__col {
+    flex: 0 0 35%;
+  }
+
+  .card__img-item {
+    min-height: 230px;
+    max-height: 230px;
+  }
+
+  .card__descp {
+    padding: 18px 20px 15px 20px;
+  }
+
+  .card__title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .card__text {
+    margin-bottom: 15px;
+  }
+
+  .card__price {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .card__price-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 1 100%;
+  }
+
+  .card__price {
+    margin-right: 5px;
+  }
+
+  .card__btn-link {
+    width: 100%;
+    font-size: 16px;
+    padding: 3px 25px;
+    margin-top: 10px;
+  }
+
+  .card__layer {
+    margin-right: 5px;
+  }
+
+  #breadcrumbs {
+    margin-bottom: 13px;
+  }
+
+  #breadcrumbs span a,
+#breadcrumbs span {
+    font-size: 12px;
+  }
+
+  .select__value {
+    height: 30px;
+  }
+
+  .charect-sel__title,
+.select__title,
+.select__options {
+    font-size: 14px;
+  }
+
+  .select__options {
+    top: 20px;
+  }
 }
 @media (max-width: 700px) {
   .mob-menu {
@@ -3492,6 +3603,25 @@ body.ie ._ibg img {
   .design-glass__col:last-child {
     margin-right: 0;
   }
+
+  .charect-sel {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+  }
+
+  .charect-sel__item {
+    margin-right: 15px;
+  }
+
+  .select__value {
+    width: 125px;
+  }
+
+  .charect-sel__item,
+.charect-sel__title {
+    margin-right: 10px;
+  }
 }
 @media (max-width: 630px) {
   .thickness__item-descp {
@@ -3518,6 +3648,10 @@ body.ie ._ibg img {
 
   .advant-info {
     flex: 0 0 30%;
+  }
+
+  .card__col {
+    flex: 0 0 43%;
   }
 }
 @media (max-width: 540px) {
@@ -3561,6 +3695,28 @@ body.ie ._ibg img {
     flex: 0 0 43%;
   }
 }
+@media (max-width: 530px) {
+  .charect-sel__item {
+    margin-bottom: 10px;
+  }
+
+  .charect-sel__item:last-child {
+    margin-bottom: 0;
+  }
+
+  .charect-sel {
+    justify-content: flex-start;
+  }
+
+  .charect-sel__item {
+    flex-direction: column;
+  }
+
+  .charect-sel__title {
+    margin-right: 0;
+    margin-bottom: 3px;
+  }
+}
 @media (max-width: 515px) {
   .logo-icon {
     height: 35px;
@@ -3581,6 +3737,10 @@ body.ie ._ibg img {
 
   .popup__form-block {
     flex: 0 1 100%;
+  }
+
+  .page-recurring {
+    padding-top: 38px;
   }
 
   .advant-info {
@@ -3627,6 +3787,10 @@ body.ie ._ibg img {
     margin-right: 0;
     margin-bottom: 10px;
   }
+
+  .card__col {
+    flex: 0 0 55%;
+  }
 }
 @media (max-width: 460px) {
   .design-glass__col {
@@ -3649,6 +3813,10 @@ body.ie ._ibg img {
   .form-applic__btn {
     width: 100%;
   }
+
+  .card__col {
+    flex: 0 0 65%;
+  }
 }
 @media (max-width: 375px) {
   .bascket-icon {
@@ -3657,6 +3825,10 @@ body.ie ._ibg img {
 
   .header__contacts {
     margin-right: 8px;
+  }
+
+  .card__col {
+    flex: 0 0 75%;
   }
 }
 @media (max-width: 360px) {
@@ -3678,5 +3850,14 @@ body.ie ._ibg img {
 
   .advant-info {
     flex: 0 0 53%;
+  }
+}
+@media (max-width: 330px) {
+  .card__title {
+    font-size: 16px;
+  }
+
+  .card__charect {
+    font-size: 12px;
   }
 }

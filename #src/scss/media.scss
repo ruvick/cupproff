@@ -13,11 +13,11 @@
 	}
 }
 
-@media (max-width: 1440px) { 
+@media (max-width: 1440px) {  
 	.advant__img {
     flex: 0 1 750px;}
 	.advant__title {
-		margin-bottom: 25px;}
+		margin-bottom: 25px;}  
 }
 
 @media (max-width: 1330px) {
@@ -38,6 +38,10 @@
     flex: 0 1 50%;}
   .payment-info {
     padding: 50px 0;}
+  .card__row {
+    margin: 0 -6px;}
+  .card__col {
+    padding: 0 6px;}
 }
 
 @media (max-width: 1250px) { 
@@ -57,6 +61,8 @@
   	font-size: 20px;}
   .form-applic {
     padding: 35px 35px 45px 35px;}
+  .card__btn-link {
+    font-size: 18px;}
 }
 
 @media (max-width: 1150px) { 
@@ -64,6 +70,8 @@
     margin: 0 -25px;}
   .design-glass__col {
     padding: 0 25px;}
+  .card__col {
+    flex: 0 1 33.333%;}
 }
 
 @media (max-width: 1100px) { 
@@ -177,6 +185,8 @@
     max-width: 250px;
     height: 200px;
     bottom: -3px;}
+  .card__col {
+    flex: 0 1 50%;}
 }
 
 @media (max-width: 812px) {
@@ -398,6 +408,57 @@
     margin-bottom: 10px;}
   .form-applic__btn {
     margin-top: 10px;}
+  .charect-sel {
+    margin-bottom: 35px;}
+  .page-recurring {
+    padding-top: 50px;}
+  .card__row {
+    flex-wrap: nowrap;
+    width: auto;
+    overflow: auto;
+    margin: 0 -10px;}
+  .card__col {
+    flex: 0 0 35%;}
+  .card__img-item {
+    min-height: 230px;
+    max-height: 230px;}
+  .card__descp {
+    padding: 18px 20px 15px 20px;}
+  .card__title {
+    font-size: 18px;
+    margin-bottom: 10px;}
+  .card__text {
+    margin-bottom: 15px;}
+  .card__price {
+    font-size: 20px;
+    margin-bottom: 5px;}
+  .card__price-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 1 100%;}
+  .card__price {
+    margin-right: 5px;}
+  .card__btn-link {
+    width: 100%;
+    font-size: 16px;
+    padding: 3px 25px;
+    margin-top: 10px;}
+  .card__layer {
+    margin-right: 5px;}
+  #breadcrumbs {
+    margin-bottom: 13px;}
+  #breadcrumbs span a,
+  #breadcrumbs span {
+    font-size: 12px;}
+  .select__value {
+    height: 30px;}
+  .charect-sel__title,
+  .select__title,
+  .select__options {
+    font-size: 14px;}
+  .select__options {
+    top: 20px;}
 }
 
 @media (max-width: 700px) {
@@ -419,6 +480,18 @@
     margin-bottom: 0;}
   .design-glass__col:last-child {
     margin-right: 0;}
+  .charect-sel {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 25px;}
+  .charect-sel__item {
+    margin-right: 15px;}
+  .select__value {
+    width: 125px;}
+  .charect-sel__item,
+  .charect-sel__title {
+    margin-right: 10px;}
+
 }
 
 @media (max-width: 630px) {
@@ -438,6 +511,8 @@
     flex: 0 0 26%;}
   .advant-info {
     flex: 0 0 30%;}
+  .card__col {
+    flex: 0 0 43%;}
 }
 
 @media (max-width: 540px) {
@@ -465,6 +540,20 @@
     flex: 0 0 43%;}
 }
 
+@media (max-width: 530px) {
+  .charect-sel__item {
+    margin-bottom: 10px;}
+  .charect-sel__item:last-child {
+    margin-bottom: 0;}
+  .charect-sel {
+    justify-content: flex-start;}
+  .charect-sel__item {
+    flex-direction: column;}
+  .charect-sel__title {
+    margin-right: 0;
+    margin-bottom: 3px;}
+}
+
 @media (max-width: 515px) {
 	.logo-icon {
 		height: 35px;}
@@ -477,6 +566,8 @@
 		display: none;}
 	.popup__form-block {
 		flex: 0 1 100%;}
+  .page-recurring {
+    padding-top: 38px;}
   .advant-info {
     flex: 0 0 38%;}
   .offer-thickness__row {
@@ -502,6 +593,8 @@
     flex: 0 1 100%;
     margin-right: 0;
     margin-bottom: 10px;}
+  .card__col {
+    flex: 0 0 55%;}
 }
 
 @media (max-width: 460px) {
@@ -518,6 +611,8 @@
     flex: 0 0 43%;}
   .form-applic__btn {
     width: 100%;}
+  .card__col {
+    flex: 0 0 65%;}
 }
 
 @media (max-width: 375px) {
@@ -525,6 +620,8 @@
 		margin-right: 18px;}
 	.header__contacts {
 		margin-right: 8px;}
+  .card__col {
+    flex: 0 0 75%;}
 }
 
 @media (max-width: 360px) {
@@ -538,4 +635,11 @@
     flex: 0 0 50%;}
   .advant-info {
     flex: 0 0 53%;}
+}
+
+@media (max-width: 330px) {
+  .card__title {
+    font-size: 16px;}
+  .card__charect {
+    font-size: 12px;}
 }
