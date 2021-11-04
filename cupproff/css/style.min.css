@@ -3905,6 +3905,10 @@ body.ie ._ibg img {
   .card__col {
     flex: 0 0 55%;
   }
+
+  .popup__form-btn {
+    width: 100%;
+  }
 }
 @media (max-width: 460px) {
   .design-glass__col {
