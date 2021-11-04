@@ -130,10 +130,10 @@ let aboutSlider = new Swiper('.about__slider', {
 // Сюда пишем класс нашего слайдера и меняем переменную
 let productSlider = new Swiper('.product__slider', {
 	// effect: 'fade',
-	autoplay: {
-		delay: 1300,
-		disableOnInteraction: false,
-	},
+	// autoplay: {
+	// 	delay: 1300,
+	// 	disableOnInteraction: false,
+	// },
 
 	observer: true,
 	observeParents: true,

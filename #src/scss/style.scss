@@ -825,11 +825,12 @@ h4 {
 
 .product__row {
 	justify-content: space-between;
+	align-items: start;
 }
 
 .product__slider {
-	flex: 0 0 43.65%;
-	height: 628px;
+	flex: 0 1 43.65%;
+	max-height: 628px;
 	border: 1px solid #BABABA;
 	border-radius: 35px;
 	background: url('../img/nophoto.jpg');
@@ -842,7 +843,7 @@ h4 {
 .product__slide {}
 
 .product__descp {
-	flex: 1 1 auto;
+	flex: 0 1 60%;
 }
 
 .product__charect {
