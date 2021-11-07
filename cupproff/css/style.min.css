@@ -619,6 +619,7 @@ textarea.input {
   height: 100%;
   color: #161615;
   text-align: center;
+  outline: none;
 }
 
 .price__inputs {
@@ -3396,15 +3397,16 @@ body.ie ._ibg img {
     flex-wrap: nowrap;
     padding-bottom: 10px;
     overflow-x: auto;
+    margin: 0 -10px;
   }
 
   .how-work-info {
     flex: 0 0 21%;
-    margin-right: 15px;
+    margin-right: 10px;
   }
 
-  .how-work-info:last-child {
-    margin-right: 0;
+  .how-work-info:first-child {
+    margin-left: 10px;
   }
 
   .advant__container {
@@ -3434,14 +3436,15 @@ body.ie ._ibg img {
     margin-bottom: 0 !important;
   }
 
-  .advant-info:last-child {
-    margin-right: 0;
+  .advant-info:first-child {
+    margin-left: 10px;
   }
 
   .advant__card-row {
     width: auto;
     flex-wrap: nowrap;
     overflow: auto;
+    margin: 0 -10px;
   }
 
   .advant-info h3 {
@@ -3557,6 +3560,7 @@ body.ie ._ibg img {
   .card__img-item {
     min-height: 230px;
     max-height: 230px;
+    margin-bottom: 13px;
   }
 
   .card__descp {
@@ -3690,12 +3694,13 @@ body.ie ._ibg img {
     width: auto;
     flex-wrap: nowrap;
     overflow: auto;
-    margin: 0;
+    margin: 0 -10px;
   }
 
   .design-glass__col {
     flex: 0 0 35%;
     padding: 0;
+    margin-left: 10px;
     margin-right: 15px;
     margin-bottom: 0;
   }
