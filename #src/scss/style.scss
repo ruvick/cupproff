@@ -17,7 +17,7 @@
 	src: url('../fonts/ProximaNovaExCn-Thin.eot');
 	src: local('☺'), url('../fonts/ProximaNovaExCn-Thin.woff') format('woff'), url('../fonts/ProximaNovaExCn-Thin.ttf') format('truetype'), url('../fonts/ProximaNovaExCn-Thin.svg') format('svg');
 	font-weight: 100;
-	font-style: normal;   
+	font-style: normal;    
 }
 
 @font-face {
@@ -119,7 +119,7 @@ h4 {
 		margin-bottom: 50px;
 	}
 	
-	@media (max-width: 768px) {
+	@media (max-width: 768px) { 
 		h1 {
 			font-size: 26px;}
 		h2 {
